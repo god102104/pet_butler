@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Server-Side</string>
+    <string name="title_activity_sub">MainActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="require_permission">Require_Permission</string>
+    <string name="ok">OK</string>
+    <string name="denied_permission_finish">Denied_Permission</string>
+    <string name="TTSOnHTTP01">TTS</string>
+</resources>

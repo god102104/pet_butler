@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="speaker_array">speaker_array</string-array>
+    <string-array name="language">language</string-array>
+    <string-array name="encoding_raw">encoding_raq</string-array>
+    <string-array name="channel_mono">channel_momo</string-array>
+    <string-array name="samplerate_only">samplerate_only</string-array>
+    <string-array name="sampleFmt_only">sampleFmt_only</string-array>
+    <string-array name="sttmode_array">sttmode_array</string-array>
+    <string-array name="channel_array">test</string-array>
+    <string-array name="encoding_array">test</string-array>
+    <string-array name="samplerate_array">test</string-array>
+    <string-array name="sampleFmt_array">test</string-array>
+</resources>

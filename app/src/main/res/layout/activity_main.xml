@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:id="@+id/activity_server"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:layout_width="374dp"
+        android:layout_height="158dp"
+        android:layout_marginTop="3dp"
+        android:background="#FDF3F3">
+
+        <LinearLayout
+            android:id="@+id/msgList"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"></LinearLayout>
+    </ScrollView>
+
+    <Button
+        android:id="@+id/btn_find"
+        android:layout_width="148dp"
+        android:layout_height="60dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="130dp"
+        android:layout_marginTop="220dp"
+        android:layout_marginEnd="130dp"
+        android:background="@drawable/button_pressed"
+        android:onClick="onClick"
+        android:text="찾아줘!"
+        android:textColor="@android:color/white"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/btn_check"
+        android:layout_width="148dp"
+        android:layout_height="60dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="130dp"
+        android:layout_marginTop="280dp"
+        android:layout_marginEnd="130dp"
+        android:background="@drawable/button_pressed"
+        android:onClick="onClick"
+        android:text="먹이 확인"
+        android:textColor="@android:color/white"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/btn_alpha"
+        android:layout_width="148dp"
+        android:layout_height="60dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="130dp"
+        android:layout_marginTop="340dp"
+        android:layout_marginEnd="130dp"
+        android:background="@drawable/button_pressed"
+        android:onClick="onClick"
+        android:text="추가기능"
+        android:textColor="@android:color/white"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/TTSOnHTTP01"
+        android:layout_width="148dp"
+        android:layout_height="60dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="130dp"
+        android:layout_marginTop="410dp"
+        android:layout_marginEnd="130dp"
+        android:background="@drawable/button_pressed"
+        android:onClick="onClick_Genie"
+        android:text="TTS"
+        android:textColor="@android:color/white"
+        android:textSize="24sp" />
+    <Button
+        android:id="@+id/STTOnHTTP01"
+        android:layout_width="148dp"
+        android:layout_height="60dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="130dp"
+        android:layout_marginTop="470dp"
+        android:layout_marginEnd="130dp"
+        android:background="@drawable/button_pressed"
+        android:onClick="onClick_Genie"
+        android:text="STT01"
+        android:textColor="@android:color/white"
+        android:textSize="24sp" />
+    <Button
+        android:id="@+id/STTOnHTTP02"
+        android:layout_width="148dp"
+        android:layout_height="60dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="130dp"
+        android:layout_marginTop="530dp"
+        android:layout_marginEnd="130dp"
+        android:background="@drawable/button_pressed"
+        android:onClick="onClick_Genie"
+        android:text="STT02"
+        android:textColor="@android:color/white"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/ip"
+        android:layout_width="249dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="165dp"
+        android:layout_marginEnd="162dp"
+        android:textColor="@color/azulado"
+        android:textSize="24sp" />
+
+
+</RelativeLayout>
